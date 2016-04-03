@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{9D16A4BC-945F-47FC-9DD7-475DD07B49C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D174ECDB-FFF9-4399-984E-C21CEAC367C0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ReflectionPerformanceAndAlternatives", "src\ReflectionPerformanceAndAlternatives\ReflectionPerformanceAndAlternatives.xproj", "{F04F7195-8725-48A0-AAA4-F66CE4DD2C73}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F04F7195-8725-48A0-AAA4-F66CE4DD2C73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F04F7195-8725-48A0-AAA4-F66CE4DD2C73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F04F7195-8725-48A0-AAA4-F66CE4DD2C73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F04F7195-8725-48A0-AAA4-F66CE4DD2C73}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F04F7195-8725-48A0-AAA4-F66CE4DD2C73} = {9D16A4BC-945F-47FC-9DD7-475DD07B49C9}
+	EndGlobalSection
+EndGlobal

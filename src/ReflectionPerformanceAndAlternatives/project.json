@@ -1,0 +1,41 @@
+{
+	"version": "1.0.0-*",
+	"description": "ReflectionPerformanceAndAlternatives Console Application",
+	"authors":
+	[
+		"JC"
+	],
+	"tags":
+	[
+		""
+	],
+	"projectUrl": "",
+	"licenseUrl": "",
+
+	"compilationOptions":
+	{
+		"emitEntryPoint": true
+	},
+
+	"commands":
+	{
+		"ReflectionPerformanceAndAlternatives": "ReflectionPerformanceAndAlternatives"
+	},
+
+	"frameworks":
+	{
+		"dnxcore50":
+		{
+			"dependencies":
+			{
+				"Microsoft.CSharp": "4.0.1-beta-23516",
+				"System.Collections": "4.0.11-beta-23516",
+				"System.Console": "4.0.0-beta-23516",
+				"System.Linq": "4.0.1-beta-23516",
+				"System.Threading": "4.0.11-beta-23516",
+				"System.Reflection.Emit": "4.0.1-beta-23516",
+				"System.Reflection.Emit.Lightweight": "4.0.1-beta-23516"
+			}
+		}
+	}
+}
